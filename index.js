@@ -22,11 +22,11 @@ hoverElement.addEventListener("mouseover", function (event) {
 
 //Q4
 
-const password = document.getElementById("password");
-const heading = document.querySelector(".prompt");
-    
     function q4Submit() {
-       
+        
+        const password = document.getElementById("password");
+        const heading = document.querySelector(".prompt");
+            
         if (password.value == "password123") {
             heading.innerHTML = "Welcome " + document.querySelector("#username").value + ".";
         } else {
